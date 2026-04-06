@@ -15,18 +15,19 @@
 
 ### 3. Kết quả chính
 **Assets:**
-- 
-- 
+- Dữ liệu điểm của sinh viên.
+- Thông tin đăng nhập và quyền truy cập của giảng viên/sinh viên.
+- Hệ thống ứng dụng quản lý điểm và cơ sở dữ liệu lưu trữ.
 
 **CIA mapping:**
-- Sự cố A -> 
-- Sự cố B -> 
-- Sự cố C -> 
+- Sự cố A -> Availability
+- Sự cố B -> Integrity
+- Sự cố C -> Confidentiality
 
 **Phân tích sự cố B:**
-- Threat: 
-- Vulnerability: 
-- Mitigation: 
+- Threat: Kẻ tấn công nội bộ hoặc người dùng trái phép thay đổi điểm số trong hệ thống.
+- Vulnerability: Kiểm soát truy cập và xác thực yếu, cho phép sửa điểm không hợp lệ.
+- Mitigation: Áp dụng phân quyền chặt chẽ, kiểm tra xác thực hai yếu tố và ghi nhật ký chỉnh sửa điểm.
 
 ### 4. Kết luận ngắn
-(4-6 dòng: em học được gì từ bài lab này, phần nào khó nhất, điều gì cần chú ý khi phân tích một sự cố an toàn thông tin.)
+Bài lab giúp em thấy rõ sự khác biệt giữa Confidentiality, Integrity và Availability trong một hệ thống lưu điểm. Sự cố điểm bị thay đổi là vấn đề nghiêm trọng vì ảnh hưởng trực tiếp đến tính công bằng và niềm tin của sinh viên. Em cần chú ý xác định rõ threat/vulnerability trước khi đề xuất mitigation để giải pháp phù hợp. Hệ thống cần được thiết kế sao cho chỉ người có quyền mới thay đổi dữ liệu quan trọng.
